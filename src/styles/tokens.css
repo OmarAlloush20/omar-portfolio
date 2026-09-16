@@ -1,0 +1,17 @@
+:root {
+  --ink: #07101f;
+  --surface: #0b1628;
+  --surface-raised: #101d32;
+  --paper: #f2f0e9;
+  --muted: #9eabbc;
+  --dim: #657287;
+  --accent: #39bfff;
+  --accent-soft: #83dcff;
+  --accent-deep: #087fad;
+  --ink-muted: #4e5b6d;
+  --line: rgba(205, 225, 246, .1);
+  --line-strong: rgba(205, 225, 246, .2);
+  --grid: rgba(111, 179, 224, .045);
+  --sans: Inter, Aptos, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
