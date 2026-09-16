@@ -17,6 +17,7 @@ export function Contact() {
         <div className="contact-actions" dir="ltr">
           <a className="contact-email" href={links.email}>omarzabadani1@gmail.com <ArrowIcon /></a>
           <a href={links.github} target="_blank" rel="noreferrer">GitHub / OmarAlloush20 <ArrowIcon /></a>
+          <a href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn / Omar Alloush <ArrowIcon /></a>
         </div>
       </div>
     </section>

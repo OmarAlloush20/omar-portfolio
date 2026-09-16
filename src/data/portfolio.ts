@@ -1,5 +1,6 @@
 type PortfolioLinks = {
   github: string
+  linkedin: string
   liveStore: string
   source: string
   admin: string
@@ -9,6 +10,7 @@ type PortfolioLinks = {
 
 export const links: PortfolioLinks = {
   github: 'https://github.com/OmarAlloush20',
+  linkedin: 'https://www.linkedin.com/in/omar-alloush-dev',
   liveStore: 'https://voltiva-web.onrender.com',
   source: 'https://github.com/OmarAlloush20/voltiva-portfolio',
   admin: 'https://voltiva-admin.onrender.com',
