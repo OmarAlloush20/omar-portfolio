@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { useScrollPresentation } from './hooks/useScrollPresentation'
 import { useLanguage } from './i18n/useLanguage'
 import { About } from './sections/About'
+import { ChessReview } from './sections/ChessReview'
 import { Contact } from './sections/Contact'
 import { Education } from './sections/Education'
 import { EngineeringHighlights } from './sections/EngineeringHighlights'
@@ -33,6 +34,7 @@ function App() {
         <Skills />
         <Voltiva />
         <EngineeringHighlights />
+        <ChessReview />
         <Education />
         <Contact />
       </main>

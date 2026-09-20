@@ -1,6 +1,11 @@
 type PortfolioLinks = {
   github: string
   linkedin: string
+  chessReview: {
+    live: string
+    source: string
+    androidApk: string
+  }
   liveStore: string
   source: string
   admin: string
@@ -11,6 +16,11 @@ type PortfolioLinks = {
 export const links: PortfolioLinks = {
   github: 'https://github.com/OmarAlloush20',
   linkedin: 'https://www.linkedin.com/in/omar-alloush-dev',
+  chessReview: {
+    live: 'https://chess-review-yoo4.onrender.com/',
+    source: 'https://github.com/OmarAlloush20/chess-review',
+    androidApk: 'https://github.com/OmarAlloush20/chess-review/releases/tag/v1.0.0',
+  },
   liveStore: 'https://voltiva-web.onrender.com',
   source: 'https://github.com/OmarAlloush20/voltiva-portfolio',
   admin: 'https://voltiva-admin.onrender.com',

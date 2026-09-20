@@ -112,6 +112,7 @@ h1 { margin: 0; font-size: clamp(78px, 10vw, 146px); line-height: .8; letter-spa
 .voltiva-showcase { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(290px, .55fr); gap: clamp(48px, 7vw, 100px); }
 .showcase-sticky { position: sticky; top: 92px; align-self: start; height: calc(100vh - 112px); min-height: 610px; display: flex; flex-direction: column; }
 .surface-tabs { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid rgba(7,16,31,.2); border-bottom: 0; }
+.surface-tabs-three { grid-template-columns: repeat(3, 1fr); }
 .surface-tabs button { padding: 12px 8px; border: 0; border-right: 1px solid rgba(7,16,31,.15); background: transparent; color: var(--ink-muted); cursor: pointer; font: 9px var(--mono); text-transform: uppercase; letter-spacing: .08em; }
 .surface-tabs button:last-child { border-right: 0; }
 .surface-tabs button span { display: block; margin-bottom: 2px; color: #78879b; }

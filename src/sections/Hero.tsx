@@ -18,6 +18,7 @@ export function Hero() {
           <p className="hero-summary">{copy.hero.summary}</p>
           <div className="button-row">
             <a className="button button-primary" href="#work">{copy.hero.view} <span aria-hidden="true">↓</span></a>
+            <a className="button button-secondary" href="#chess-review">{copy.hero.viewChessReview} <span aria-hidden="true">↓</span></a>
             <a className="button button-secondary" href={links.github} target="_blank" rel="noreferrer">GitHub <ArrowIcon /></a>
             <a className="text-link" href={links.liveStore} target="_blank" rel="noreferrer">{copy.hero.live} <ArrowIcon /></a>
           </div>

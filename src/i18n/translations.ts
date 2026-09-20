@@ -12,7 +12,7 @@ const en = {
   hero: {
     eyebrow: 'Computer Engineering Graduate', role: 'Computer Engineering Graduate / Full-Stack Developer',
     summary: 'I build reliable web, mobile, and backend applications with TypeScript, Node.js, React, and React Native.',
-    view: 'View Voltiva', live: 'Live demo', focusLabel: 'Current focus', focusAria: 'Development focus',
+    view: 'View Voltiva', viewChessReview: 'View Chess Review', live: 'Live demo', focusLabel: 'Current focus', focusAria: 'Development focus',
     focus: ['Backend engineering', 'Product interfaces', 'Mobile applications', 'End-to-end delivery'], scroll: 'Scroll to explore',
   },
   about: {
@@ -44,6 +44,19 @@ const en = {
     live: 'Live store', source: 'Source', admin: 'Admin', apk: 'Download Android APK', adminNote: 'Admin credentials are intentionally not public.',
     demoLabel: 'Demo note', demo: 'Voltiva runs on Render’s free-tier infrastructure. After inactivity, the backend may need a short moment to wake up. If the store does not load immediately, wait briefly and refresh.',
     demoMeta: 'Portfolio/demo deployment · Stripe TEST mode only',
+  },
+  chessReview: {
+    index: 'PROJECT 02 / FEATURED WORK', heading: 'Local analysis. No server required.', label: 'Featured project / 2026',
+    subtitle: 'Local-first chess review — Web, Stockfish & Android',
+    intro: 'A React and TypeScript application for importing or playing games and analyzing them locally with Stockfish WebAssembly—without a backend.',
+    tabsLabel: 'Chess Review views', tabs: ['game review', 'explore', 'android'],
+    surfaces: [
+      { label: '01 / Game Review', title: 'Engine feedback made readable.', description: 'Imported games are analyzed with opening-book detection, evaluations, mate-in-N feedback, and move classifications from Book and Best through Mistake and Blunder.', alt: 'Chess Review desktop Game Review showing the board, move classifications, and Stockfish evaluation' },
+      { label: '02 / Explore', title: 'Manual analysis without blocking the interface.', description: 'Interactive exploration runs Stockfish in a Web Worker, with background analysis, caching, cancellation, and stale-result protection keeping the interface responsive and consistent.', alt: 'Chess Review desktop Explore mode showing manual analysis and engine variations' },
+      { label: '03 / Android', title: 'The same local engine on Android.', description: 'Capacitor packages the local-first React application for Android, preserving board interaction and on-device Stockfish analysis without introducing a backend dependency.', alt: 'Chess Review Android application showing local game analysis on a phone' },
+    ],
+    live: 'Live Demo', source: 'Source', apk: 'Android APK',
+    stackLabel: 'Built with', stack: 'React · TypeScript · Vite · Stockfish WebAssembly · Web Workers · chess.js · react-chessboard · Capacitor',
   },
   highlights: {
     index: '04 / UNDER THE HOOD', title: 'The interesting parts live between the screens.', description: 'Selected problems that shaped how Voltiva was designed and built.',
@@ -79,7 +92,7 @@ const ar: PortfolioCopy = {
   hero: {
     eyebrow: 'خريج هندسة الحاسوب', role: 'خريج هندسة الحاسوب / مطوّر Full-Stack',
     summary: 'أبني تطبيقات Web وMobile وأنظمة Backend موثوقة باستخدام TypeScript وNode.js وReact وReact Native.',
-    view: 'استعرض Voltiva', live: 'النسخة التجريبية', focusLabel: 'مجالات التركيز', focusAria: 'مجالات التطوير التي أركّز عليها',
+    view: 'استعرض Voltiva', viewChessReview: 'استعرض Chess Review', live: 'النسخة التجريبية', focusLabel: 'مجالات التركيز', focusAria: 'مجالات التطوير التي أركّز عليها',
     focus: ['هندسة الـBackend', 'واجهات المنتجات', 'تطبيقات Mobile', 'التطوير من الفكرة إلى الإطلاق'], scroll: 'تابع لاستكشاف المزيد',
   },
   about: {
@@ -111,6 +124,19 @@ const ar: PortfolioCopy = {
     live: 'فتح المتجر', source: 'الكود المصدري', admin: 'لوحة Admin', apk: 'تنزيل تطبيق Android', adminNote: 'بيانات الدخول إلى Admin غير متاحة للعامة عمداً.',
     demoLabel: 'ملاحظة التجربة', demo: 'تعمل Voltiva على خدمات Render المجانية. بعد فترة من عدم الاستخدام، قد يحتاج الـBackend إلى وقت قصير ليعمل من جديد. إذا لم يفتح المتجر مباشرة، انتظر قليلاً ثم أعد تحميل الصفحة.',
     demoMeta: 'نسخة Portfolio تجريبية · Stripe في وضع TEST فقط',
+  },
+  chessReview: {
+    index: 'المشروع 02 / مشروع مميز', heading: 'تحليل محلي من دون الحاجة إلى خادم.', label: 'مشروع مميز / 2026',
+    subtitle: 'مراجعة شطرنج محلية — Web وStockfish وAndroid',
+    intro: 'تطبيق مبني باستخدام React وTypeScript لاستيراد المباريات أو لعبها وتحليلها محلياً عبر Stockfish WebAssembly من دون Backend.',
+    tabsLabel: 'واجهات Chess Review', tabs: ['مراجعة المباراة', 'الاستكشاف', 'Android'],
+    surfaces: [
+      { label: '01 / Game Review', title: 'ملاحظات واضحة من محرك التحليل.', description: 'يحلل التطبيق المباريات المستوردة مع اكتشاف الافتتاحيات والتقييمات وحالات Mate-in-N وتصنيف النقلات من Book وBest وصولاً إلى Mistake وBlunder.', alt: 'واجهة Game Review في Chess Review تعرض الرقعة وتصنيفات النقلات وتقييم Stockfish' },
+      { label: '02 / Explore', title: 'تحليل يدوي من دون تعطيل الواجهة.', description: 'يعمل Stockfish داخل Web Worker للاستكشاف التفاعلي، مع التحليل في الخلفية وCaching والإلغاء والحماية من النتائج القديمة للحفاظ على استجابة الواجهة واتساقها.', alt: 'وضع Explore في Chess Review يعرض التحليل اليدوي وتفرعات المحرك' },
+      { label: '03 / Android', title: 'المحرك المحلي نفسه على Android.', description: 'يتيح Capacitor تقديم تطبيق React المحلي على Android مع الحفاظ على تفاعل الرقعة وتحليل Stockfish على الجهاز، من دون الاعتماد على Backend.', alt: 'تطبيق Chess Review على Android يعرض تحليل مباراة محلياً على الهاتف' },
+    ],
+    live: 'النسخة التجريبية', source: 'الكود المصدري', apk: 'تطبيق Android',
+    stackLabel: 'بُني باستخدام', stack: 'React · TypeScript · Vite · Stockfish WebAssembly · Web Workers · chess.js · react-chessboard · Capacitor',
   },
   highlights: {
     index: '04 / خلف الواجهات', title: 'أهم التحديات تظهر بين أجزاء النظام.', description: 'مسائل هندسية ساهمت في تشكيل طريقة تصميم Voltiva وتنفيذها.',
@@ -144,7 +170,7 @@ const tr: PortfolioCopy = {
   hero: {
     eyebrow: 'Bilgisayar Mühendisliği Mezunu', role: 'Bilgisayar Mühendisliği Mezunu / Full-Stack Geliştirici',
     summary: 'TypeScript, Node.js, React ve React Native ile güvenilir web, mobil ve backend uygulamaları geliştiriyorum.',
-    view: 'Voltiva’yı incele', live: 'Canlı demo', focusLabel: 'Odak alanlarım', focusAria: 'Yazılım geliştirme odak alanları',
+    view: 'Voltiva’yı incele', viewChessReview: 'Chess Review’u incele', live: 'Canlı demo', focusLabel: 'Odak alanlarım', focusAria: 'Yazılım geliştirme odak alanları',
     focus: ['Backend mühendisliği', 'Ürün arayüzleri', 'Mobil uygulamalar', 'Uçtan uca teslimat'], scroll: 'Keşfetmek için kaydır',
   },
   about: {
@@ -176,6 +202,19 @@ const tr: PortfolioCopy = {
     live: 'Canlı mağaza', source: 'Kaynak kod', admin: 'Admin', apk: 'Android APK’yı indir', adminNote: 'Admin giriş bilgileri bilinçli olarak herkese açık tutulmamaktadır.',
     demoLabel: 'Demo notu', demo: 'Voltiva, Render’ın ücretsiz altyapısında çalışır. Bir süre kullanılmadığında Backend’in yeniden başlaması kısa sürebilir. Mağaza hemen açılmazsa kısa bir süre bekleyip sayfayı yenileyin.',
     demoMeta: 'Portfolio/demo yayını · Stripe yalnızca TEST modunda',
+  },
+  chessReview: {
+    index: 'PROJE 02 / ÖNE ÇIKAN PROJE', heading: 'Yerel analiz. Sunucu gerektirmez.', label: 'Öne çıkan proje / 2026',
+    subtitle: 'Yerel öncelikli satranç inceleme — Web, Stockfish ve Android',
+    intro: 'Oyunları içe aktarmaya veya doğrudan oynamaya ve Stockfish WebAssembly ile tamamen yerel olarak analiz etmeye yönelik React ve TypeScript uygulaması.',
+    tabsLabel: 'Chess Review görünümleri', tabs: ['oyun inceleme', 'keşif', 'android'],
+    surfaces: [
+      { label: '01 / Game Review', title: 'Anlaşılır motor geri bildirimi.', description: 'İçe aktarılan oyunlar; açılış kitabı algılama, değerlendirmeler, mate-in-N geri bildirimi ve Book ile Best’ten Mistake ve Blunder’a uzanan hamle sınıflarıyla analiz edilir.', alt: 'Tahtayı, hamle sınıflarını ve Stockfish değerlendirmesini gösteren Chess Review masaüstü Game Review ekranı' },
+      { label: '02 / Explore', title: 'Arayüzü engellemeden manuel analiz.', description: 'Etkileşimli keşifte Stockfish bir Web Worker içinde çalışır; arka plan analizi, önbellekleme, iptal ve eski sonuç koruması arayüzü hızlı ve tutarlı tutar.', alt: 'Manuel analizi ve motor varyantlarını gösteren Chess Review masaüstü Explore modu' },
+      { label: '03 / Android', title: 'Aynı yerel motor Android’de.', description: 'Capacitor, yerel öncelikli React uygulamasını Android’e taşırken tahta etkileşimini ve cihaz üzerindeki Stockfish analizini Backend bağımlılığı olmadan korur.', alt: 'Telefonda yerel oyun analizi gösteren Chess Review Android uygulaması' },
+    ],
+    live: 'Canlı demo', source: 'Kaynak kod', apk: 'Android APK',
+    stackLabel: 'Teknolojiler', stack: 'React · TypeScript · Vite · Stockfish WebAssembly · Web Workers · chess.js · react-chessboard · Capacitor',
   },
   highlights: {
     index: '04 / PERDE ARKASI', title: 'Asıl mühendislik ekranların arasında başlar.', description: 'Voltiva’nın tasarım ve geliştirme kararlarını şekillendiren bazı problemler.',
