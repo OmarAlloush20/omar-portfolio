@@ -7,6 +7,7 @@ import { About } from './sections/About'
 import { ChessReview } from './sections/ChessReview'
 import { Contact } from './sections/Contact'
 import { Education } from './sections/Education'
+import { Drovu } from './sections/Drovu'
 import { EngineeringHighlights } from './sections/EngineeringHighlights'
 import { Hero } from './sections/Hero'
 import { Skills } from './sections/Skills'
@@ -35,6 +36,7 @@ function App() {
         <Voltiva />
         <EngineeringHighlights />
         <ChessReview />
+        <Drovu />
         <Education />
         <Contact />
       </main>

@@ -58,6 +58,22 @@ const en = {
     live: 'Live Demo', source: 'Source', apk: 'Android APK',
     stackLabel: 'Built with', stack: 'React · TypeScript · Vite · Stockfish WebAssembly · Web Workers · chess.js · react-chessboard · Capacitor',
   },
+  drovu: {
+    index: 'PROJECT 03 / DESKTOP SOFTWARE', heading: 'Five workflows. One Windows app.', label: 'Desktop application / 2026',
+    subtitle: 'Windows media conversion, image editing & PDF export',
+    intro: 'Drovu brings media conversion, a quick format-selection wheel, image editing, and image-to-PDF workflows into a single Windows desktop application.',
+    tabsLabel: 'Drovu features', tabs: ['home', 'conversion', 'quick wheel', 'images', 'PDF'],
+    surfaces: [
+      { label: '01 / Workspace', title: 'Drop it in. Pick a format.', description: 'Add images, video, audio, or folders through a straightforward desktop workspace, then select the output format and destination.', alt: 'Drovu main window with a file drop zone and media conversion options' },
+      { label: '02 / Media Conversion', title: 'Convert, then keep moving.', description: 'Convert between supported formats, extract audio from video, and check completed jobs while keeping the original files unchanged.', alt: 'Drovu displaying a completed video-to-MP3 conversion' },
+      { label: '03 / Conversion Wheel', title: 'A shortcut built into the workflow.', description: 'A custom format-selection wheel offers quick conversion choices during a Windows drag-and-drop workflow.', alt: 'Drovu radial conversion wheel with media format options' },
+      { label: '04 / Image Editor', title: 'Preview before you export.', description: 'Compare before and after, adjust image settings, and export edited copies in a supported image format.', alt: 'Drovu image editor showing before-and-after image previews' },
+      { label: '05 / PDF Workflow', title: 'From images to pages.', description: 'Arrange images on document pages, choose layout options, and export a multi-page PDF.', alt: 'Drovu PDF editor showing image layout and an Export PDF action' },
+    ],
+    stackLabel: 'Technologies', stack: 'C# · .NET · WinUI · FFmpeg · ImageMagick · Inno Setup',
+    statusLabel: 'Release status', status: 'Private, tested prototype. Public downloads are deferred pending third-party licensing and codec patent review.',
+    role: 'My role: Product concept, requirements, AI-assisted development direction, integration decisions, and hands-on testing.',
+  },
   highlights: {
     index: '04 / UNDER THE HOOD', title: 'The interesting parts live between the screens.', description: 'Selected problems that shaped how Voltiva was designed and built.',
     items: [
@@ -138,6 +154,22 @@ const ar: PortfolioCopy = {
     live: 'النسخة التجريبية', source: 'الكود المصدري', apk: 'تطبيق Android',
     stackLabel: 'بُني باستخدام', stack: 'React · TypeScript · Vite · Stockfish WebAssembly · Web Workers · chess.js · react-chessboard · Capacitor',
   },
+  drovu: {
+    index: 'المشروع 03 / تطبيق سطح مكتب', heading: 'خمس تجارب. تطبيق واحد على Windows.', label: 'تطبيق سطح مكتب / 2026',
+    subtitle: 'تحويل الوسائط وتحرير الصور وتصدير PDF على Windows',
+    intro: 'يجمع Drovu تحويل ملفات الفيديو والصوت والصور، وعجلة اختيار الصيغ السريعة، وتحرير الصور، وإنشاء PDF من الصور ضمن تطبيق واحد لسطح مكتب Windows.',
+    tabsLabel: 'ميزات Drovu', tabs: ['الرئيسية', 'التحويل', 'العجلة', 'الصور', 'PDF'],
+    surfaces: [
+      { label: '01 / الواجهة الرئيسية', title: 'أضف ملفاتك واختر الصيغة.', description: 'أضف الصور أو الفيديو أو الصوت أو المجلدات من واجهة بسيطة، ثم حدّد صيغة الإخراج ومكان حفظ الملفات.', alt: 'الواجهة الرئيسية لتطبيق Drovu وفيها منطقة إسقاط الملفات وخيارات التحويل' },
+      { label: '02 / تحويل الوسائط', title: 'حوّل ملفاتك وتابع عملك.', description: 'حوّل بين الصيغ المدعومة، واستخرج الصوت من الفيديو، وراجع نتائج العمليات المكتملة مع الحفاظ على الملفات الأصلية.', alt: 'تطبيق Drovu يعرض اكتمال تحويل فيديو إلى MP3' },
+      { label: '03 / عجلة التحويل', title: 'اختيار سريع للصيغة أثناء العمل.', description: 'عجلة مخصصة لاختيار الصيغ بسرعة ضمن تجربة السحب والإفلات في Windows.', alt: 'عجلة التحويل الدائرية في Drovu تعرض خيارات صيغ الوسائط' },
+      { label: '04 / محرر الصور', title: 'شاهد النتيجة قبل التصدير.', description: 'قارن الصورة قبل التعديل وبعده، واضبط إعداداتها، وصدّر نسخة معدّلة بإحدى الصيغ المدعومة.', alt: 'محرر الصور في Drovu يعرض المعاينة قبل التعديل وبعده' },
+      { label: '05 / إنشاء PDF', title: 'من صور متفرقة إلى صفحات.', description: 'رتّب الصور على صفحات المستند، واضبط خيارات التخطيط، ثم صدّر ملف PDF متعدد الصفحات.', alt: 'محرر PDF في Drovu يعرض ترتيب الصور على الصفحات وزر التصدير' },
+    ],
+    stackLabel: 'التقنيات', stack: 'C# · .NET · WinUI · FFmpeg · ImageMagick · Inno Setup',
+    statusLabel: 'حالة النشر', status: 'نسخة خاصة تم اختبارها. النشر العام مؤجّل لحين مراجعة تراخيص مكتبات الطرف الثالث وبراءات اختراع ترميزات الوسائط.',
+    role: 'دوري: فكرة المنتج، وتحديد المتطلبات، وتوجيه التطوير بمساعدة الذكاء الاصطناعي، وقرارات التكامل، والاختبارات العملية.',
+  },
   highlights: {
     index: '04 / خلف الواجهات', title: 'أهم التحديات تظهر بين أجزاء النظام.', description: 'مسائل هندسية ساهمت في تشكيل طريقة تصميم Voltiva وتنفيذها.',
     items: [
@@ -215,6 +247,22 @@ const tr: PortfolioCopy = {
     ],
     live: 'Canlı demo', source: 'Kaynak kod', apk: 'Android APK',
     stackLabel: 'Teknolojiler', stack: 'React · TypeScript · Vite · Stockfish WebAssembly · Web Workers · chess.js · react-chessboard · Capacitor',
+  },
+  drovu: {
+    index: 'PROJE 03 / MASAÜSTÜ YAZILIMI', heading: 'Beş iş akışı. Tek bir Windows uygulaması.', label: 'Masaüstü uygulaması / 2026',
+    subtitle: 'Windows’ta medya dönüştürme, görsel düzenleme ve PDF dışa aktarma',
+    intro: 'Drovu; medya dönüştürme, hızlı biçim seçme çarkı, görsel düzenleme ve görsellerden PDF oluşturma işlemlerini tek bir Windows masaüstü uygulamasında birleştirir.',
+    tabsLabel: 'Drovu özellikleri', tabs: ['ana ekran', 'dönüştür', 'hızlı çark', 'görseller', 'PDF'],
+    surfaces: [
+      { label: '01 / Çalışma Alanı', title: 'Dosyayı ekle, biçimi seç.', description: 'Görsel, video, ses dosyalarını veya klasörleri sade bir arayüze ekleyip çıktı biçimini ve kayıt konumunu seçebilirsiniz.', alt: 'Dosya bırakma alanını ve dönüştürme seçeneklerini gösteren Drovu ana ekranı' },
+      { label: '02 / Medya Dönüştürme', title: 'Dönüştür, işine devam et.', description: 'Desteklenen biçimler arasında dönüştürme yapın, videodan ses çıkarın ve özgün dosyaları değiştirmeden tamamlanan işlemleri inceleyin.', alt: 'Drovu uygulamasında tamamlanmış videodan MP3’e dönüştürme işlemi' },
+      { label: '03 / Dönüştürme Çarkı', title: 'İş akışının içinde hızlı seçim.', description: 'Özel biçim seçme çarkı, Windows sürükle-bırak akışında dönüştürme seçeneklerine hızlı erişim sağlar.', alt: 'Drovu uygulamasının medya biçimlerini gösteren dairesel dönüştürme çarkı' },
+      { label: '04 / Görsel Düzenleyici', title: 'Dışa aktarmadan önce önizle.', description: 'Öncesi ve sonrasını karşılaştırın, görsel ayarlarını düzenleyin ve desteklenen bir biçimde yeni kopya oluşturun.', alt: 'Öncesi ve sonrası önizlemelerini gösteren Drovu görsel düzenleyicisi' },
+      { label: '05 / PDF İş Akışı', title: 'Görsellerden PDF sayfalarına.', description: 'Görselleri belge sayfalarına yerleştirin, sayfa düzenini ayarlayın ve çok sayfalı PDF olarak dışa aktarın.', alt: 'Sayfa yerleşimini ve PDF dışa aktarma seçeneğini gösteren Drovu PDF düzenleyicisi' },
+    ],
+    stackLabel: 'Teknolojiler', stack: 'C# · .NET · WinUI · FFmpeg · ImageMagick · Inno Setup',
+    statusLabel: 'Yayın durumu', status: 'Test edilmiş özel prototip. Üçüncü taraf lisansları ve codec patentleri incelenene kadar herkese açık indirme sunulmuyor.',
+    role: 'Rolüm: Ürün fikri, gereksinimler, AI destekli geliştirme sürecinin yönlendirilmesi, entegrasyon kararları ve uygulamalı testler.',
   },
   highlights: {
     index: '04 / PERDE ARKASI', title: 'Asıl mühendislik ekranların arasında başlar.', description: 'Voltiva’nın tasarım ve geliştirme kararlarını şekillendiren bazı problemler.',
